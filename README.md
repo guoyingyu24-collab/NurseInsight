@@ -27,7 +27,7 @@ python -m streamlit run app.py
 
 ## API Key 配置
 
-系统按以下顺序获取 DeepSeek API Key，**界面上不显示密钥内容**：
+系统按以下顺序获取 DeepSeek API Key
 
 1. 本地 `config.json`（优先）
 2. Streamlit Secrets（`DEEPSEEK_API_KEY`，适用于云端部署）
